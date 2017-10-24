@@ -1,6 +1,6 @@
 # include <stdio.h>
 
 int main(){
-    printf("It is working/n");
+    printf("Hello World !");
     return 0;
 }
