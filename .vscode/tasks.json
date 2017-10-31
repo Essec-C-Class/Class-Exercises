@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build main",
+            "type": "shell",
+            "command": "gcc session3/main.c -o prog.exe",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "taskName": "run main",
+            "type": "shell",
+            "command": "prog.exe"
+        }
+    ]
+}
