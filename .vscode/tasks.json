@@ -4,7 +4,7 @@
         {
             "taskName": "build main",
             "type": "shell",
-            "command": "gcc session4/main.c -o prog.exe",
+            "command": "gcc session5/main.c -o prog.exe",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -13,7 +13,8 @@
         {
             "taskName": "run main",
             "type": "shell",
-            "command": "prog.exe"
+            "command": "prog.exe",
+            "problemMatcher": []
         }
     ]
 }
