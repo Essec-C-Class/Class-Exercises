@@ -7,23 +7,21 @@ typedef struct {
     char *label;
 } point;
 
-typedef struc {
+typedef struct {
     point points[50];
     char *label;
 } curve;
 
-curve curve1;
-curve1.points[9].z = 10;
-
-point points[10];
-
-points[0].y = 20;
+int inversePoint(point *pt){
+    printf("Coordinate X for my point is %d", pt->x);
+    pt->y = 40;
+}
 
 int main(){
     point point1;
     point1.x = 10;
     point1.y = 20;
     point1.z = 30;
-    printf("La multiplication de mes coordonnees vaut %d", point1.x * point1.y * point1.z);
-
+    inversePoint(&point1);
+    printf("Y is %d", point1.y);
 }
