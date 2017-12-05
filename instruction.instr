@@ -1,0 +1,1 @@
+grep 'root.*App' crumb.store | sed 's/,/\n/g' | grep CrumbStore | sed 's/"CrumbStore":{"crumb":"\(.*\)"}/\1/' > crumb.token

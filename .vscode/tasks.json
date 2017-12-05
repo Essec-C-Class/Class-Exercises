@@ -4,7 +4,7 @@
         {
             "taskName": "build main",
             "type": "shell",
-            "command": "gcc session6/main.c -o prog.exe",
+            "command": "gcc session8/main.c -o prog.exe",
             "group": {
                 "kind": "build",
                 "isDefault": true
